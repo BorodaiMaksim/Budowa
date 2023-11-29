@@ -187,7 +187,7 @@ footer {
 }
 
 .modal-content {
-    background-color: #fff;
+    background-color: #003869;
     margin: 10% auto;
     width: 1000px;
     overflow: auto;
@@ -196,14 +196,16 @@ footer {
 
 
 .close-modal {
-    background-color: white;
+    background-color: #003869;
     padding-left: 20px;
     padding-right: 20px;
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 70px;
+    font-size: 60px;
     cursor: pointer;
+    color: #C4D8E1;
+    border-radius: 20px;
 }
 
 .modal-img {
@@ -211,8 +213,8 @@ footer {
 }
 
 .modal-text {
-     color: black;
-     font-size: 30px;
+    color: #C4D8E1;
+    font-size: 30px;
 }
 
 .contacts-modals{
@@ -221,7 +223,9 @@ footer {
 }
 
 .h1-modal {
-     font-size: 50px;
+    font-size: 50px;
+    color: #C4D8E1;
+    font-weight: bold;
 }
 
 @media (max-width: 426px) {
