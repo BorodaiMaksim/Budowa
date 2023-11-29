@@ -280,7 +280,7 @@ footer {
     }
 
     .modal-content {
-        background-color: #fff;
+        background-color: #003869;
         margin: 10% auto;
         width: 300px;
         overflow: auto;
@@ -293,7 +293,7 @@ footer {
     }
 
     .modal-text {
-        color: black;
+        color: #C4D8E1;
         font-size: 20px;
     }
 
@@ -301,6 +301,9 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
         font-size: 50px;
+        color: #C4D8E1;
+        border-radius: 20px;
+        background-color: #003869;
     }
 }
 
