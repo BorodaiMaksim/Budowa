@@ -45,6 +45,10 @@ header {
     background-color: #003869;
     border-bottom: 3px solid #A1BBCA;
 }
+.hightlight {
+    font-weight: bold;
+    color: #fff;
+}
 
 /* Стили для общей навигации */
 .general-nav {
@@ -108,6 +112,7 @@ nav {
 .img {
     display: block;
     width: 100%;
+    height: 600px;
 }
 
 /* Стили для секции с информацией */
@@ -220,6 +225,9 @@ footer {
 }
 
 @media (max-width: 426px) {
+    .img {
+        height: 400px;
+    }
 
     .logo {
         padding: 0;
@@ -293,6 +301,9 @@ footer {
 }
 
 @media (min-width: 426px) {
+    .img {
+        height: 500px;
+    }
 
     .logo{
         margin-right: 70px;
@@ -337,7 +348,9 @@ footer {
 }
 
 @media (min-width: 1024px) {
-
+    .img {
+        height: 700px;
+    }
     .logo {
         padding: 0;
         margin-right: 100px;
