@@ -27,7 +27,7 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" id="open-documents">DOKUMENTY FIRMY</a></li>
-                    <li class="menu-item"><a href="#" id="open-ubezpieczenie">USLUGI</a></li>
+                    <li class="menu-item"><a href="#" id="open-ubezpieczenie">UBEZPIECZENIE</a></li>
                     <li class="menu-item"><a href="#" id="open-contacts">KONTAKT</a></li>
                     <li>
                         <select class="lng-select" id="language-select">
@@ -79,7 +79,7 @@
 
             <div class="address">
                 <ul class="address-items">
-                    <li id="address-hours">Godziny Otwarcia<br>Poniedziałek- Piątek </br>09.00-17.00</li>
+                    <li id="address-hours">Godziny Otwarcia<br>Poniedziałek- Piątek 09.00-17.00</li>
 
 
                     <li id="address-location"><a href="https://www.google.com/maps/place/Komandorska,+Wroc%C5%82aw/@51.0954014,17.0248665,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc269410a6c6b:0xbb7e6ea5572d51f3!8m2!3d51.0953981!4d17.0274414!16s%2Fg%2F120jfgl1?authuser=0&entry=ttu" target="blank"> Wrocław, ul. Komandorska 53A, lok: 4B.</a></li>
@@ -127,7 +127,7 @@
             <div class="contacts-modals">
                 <ul>
                     <h1 class="h1-modal">KONTAKT</h1>
-                    <li><a class="modal-text" id="contact-phone" href="tel: +48+48575833880">Tel:+48575833880</a></li>
+                    <li><a class="modal-text" id="contact-phone" href="tel:+48575833880">Tel:+48575833880</a></li>
                     <li><a class="modal-text" id="contact-email" href="mailto:intechbud@gmail.com">E- Mail: intechbud@gmail.com </a></li>
                 </ul>
                 <div>
@@ -202,11 +202,11 @@
             openModal('modal-documents');
         });
 
-        document.querySelector('.menu-item:nth-child(3) a').addEventListener('click', function () {
+        document.querySelector('.menu-item:nth-child(2) a').addEventListener('click', function () {
             openModal('modal-ubezpieczenie');
         });
 
-        document.querySelector('.menu-item:nth-child(4) a').addEventListener('click', function () {
+        document.querySelector('.menu-item:nth-child(3) a').addEventListener('click', function () {
             openModal('modal-contacts');
         });
 
