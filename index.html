@@ -27,8 +27,7 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" id="open-documents">DOKUMENTY FIRMY</a></li>
-                    <li class="menu-item"><a href="#" id="open-license">LICENCJA</a></li>
-                    <li class="menu-item"><a href="#" id="open-ubezpieczenie">UBEZPIECZENIE</a></li>
+                    <li class="menu-item"><a href="#" id="open-ubezpieczenie">USLUGI</a></li>
                     <li class="menu-item"><a href="#" id="open-contacts">KONTAKT</a></li>
                     <li>
                         <select class="lng-select" id="language-select">
@@ -105,16 +104,9 @@
         <img class="modal-img" src="./images/firm3.png" alt="">
         <img class="modal-img" src="./images/firm4.png" alt="">
         <img class="modal-img" src="./images/firm5.png" alt="">
-        <img class="modal-img" src="./images/firm6.png" alt="">
     </div>
 </div>
 
-<div id="modal-license" class="modal">
-    <div class="modal-content">
-        <span class="close-modal" id="close-license">&times;</span>
-        <img class="modal-img" src="./images/LICENSE.jpg" alt="">
-    </div>
-</div>
 
 <div id="modal-ubezpieczenie" class="modal">
     <div class="modal-content">
@@ -135,12 +127,12 @@
             <div class="contacts-modals">
                 <ul>
                     <h1 class="h1-modal">KONTAKT</h1>
-                    <li><a class="modal-text" id="contact-phone" href="tel: +48+48575833880">Tel: +48+48575833880</a></li>
+                    <li><a class="modal-text" id="contact-phone" href="tel: +48+48575833880">Tel:+48575833880</a></li>
                     <li><a class="modal-text" id="contact-email" href="mailto:intechbud@gmail.com">E- Mail: intechbud@gmail.com </a></li>
                 </ul>
                 <div>
                     <ul>
-                        <li id="address-hours" class="modal-text">Godziny Otwarcia<br>Poniedziałek- Piątek </br>09.00-17.00</li>
+                        <li id="adress-hours"><a class="modal-text">NIP: 8952235743</a></li>
                         <li id="address-location"><a class="modal-text" href="https://www.google.com/maps/place/Komandorska,+Wroc%C5%82aw/@51.0954014,17.0248665,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc269410a6c6b:0xbb7e6ea5572d51f3!8m2!3d51.0953981!4d17.0274414!16s%2Fg%2F120jfgl1?authuser=0&entry=ttu" target="blank"> Adres: Wrocław, ul. Komandorska 53A, lok: 4B.</a></li>
                     </ul>
                 </div>
@@ -166,7 +158,6 @@
         function updatePageText() {
             document.querySelector('.logo-text').textContent = translations.HEADER_TITLE;
             document.querySelector('.menu-item:nth-child(1) a').textContent = translations.MENU_ITEM_DOCUMENTS;
-            document.querySelector('.menu-item:nth-child(2) a').textContent = translations.MENU_ITEM_LICENSE;
             document.querySelector('.menu-item:nth-child(3) a').textContent = translations.MENU_ITEM_INSURANCE;
             document.querySelector('.menu-item:nth-child(4) a').textContent = translations.MENU_ITEM_CONTACT;
             document.querySelector('.info').innerHTML = translations.INFO_TEXT;
@@ -211,10 +202,6 @@
             openModal('modal-documents');
         });
 
-        document.querySelector('.menu-item:nth-child(2) a').addEventListener('click', function () {
-            openModal('modal-license');
-        });
-
         document.querySelector('.menu-item:nth-child(3) a').addEventListener('click', function () {
             openModal('modal-ubezpieczenie');
         });
@@ -225,10 +212,6 @@
 
         document.getElementById('close-documents').addEventListener('click', function () {
             closeModal('modal-documents');
-        });
-
-        document.getElementById('close-license').addEventListener('click', function () {
-            closeModal('modal-license');
         });
 
         document.getElementById('close-ubezpieczenie').addEventListener('click', function () {
