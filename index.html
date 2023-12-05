@@ -27,7 +27,7 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" id="open-documents">DOKUMENTY FIRMY</a></li>
-                    <li class="menu-item"><a href="#" id="open-ubezpieczenie">UBEZPIECZENIE</a></li>
+                    <li class="menu-item"><a href="#" id="open-ubezpieczenie">USLUGI</a></li>
                     <li class="menu-item"><a href="#" id="open-contacts">KONTAKT</a></li>
                     <li>
                         <select class="lng-select" id="language-select">
@@ -99,11 +99,11 @@
 <div id="modal-documents" class="modal">
     <div class="modal-content">
         <span class="close-modal" id="close-documents">&times;</span>
-        <img class="modal-img" src="./images/firm1.png" alt="">
-        <img class="modal-img" src="./images/firm2.png" alt="">
-        <img class="modal-img" src="./images/firm3.png" alt="">
-        <img class="modal-img" src="./images/firm4.png" alt="">
-        <img class="modal-img" src="./images/firm5.png" alt="">
+        <img class="modal-img" src="./images/firm1.jpg" alt="">
+        <img class="modal-img" src="./images/firm2.jpg" alt="">
+        <img class="modal-img" src="./images/firm3.jpg" alt="">
+        <img class="modal-img" src="./images/firm4.jpg" alt="">
+        <img class="modal-img" src="./images/firm5.jpg" alt="">
     </div>
 </div>
 
@@ -158,8 +158,8 @@
         function updatePageText() {
             document.querySelector('.logo-text').textContent = translations.HEADER_TITLE;
             document.querySelector('.menu-item:nth-child(1) a').textContent = translations.MENU_ITEM_DOCUMENTS;
-            document.querySelector('.menu-item:nth-child(3) a').textContent = translations.MENU_ITEM_INSURANCE;
-            document.querySelector('.menu-item:nth-child(4) a').textContent = translations.MENU_ITEM_CONTACT;
+            document.querySelector('.menu-item:nth-child(2) a').textContent = translations.MENU_ITEM_INSURANCE;
+            document.querySelector('.menu-item:nth-child(3) a').textContent = translations.MENU_ITEM_CONTACT;
             document.querySelector('.info').innerHTML = translations.INFO_TEXT;
             document.getElementById('contact-title').textContent = translations.CONTACT_TITLE;
             document.getElementById('contact-phone').textContent = translations.CONTACT_PHONE;
