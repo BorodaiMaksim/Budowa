@@ -192,8 +192,8 @@ footer {
     width: 1000px;
     overflow: auto;
     position: relative;
+    border-radius: 10px;
 }
-
 
 .close-modal {
     background-color: #003869;
@@ -226,6 +226,21 @@ footer {
     font-size: 50px;
     color: #C4D8E1;
     font-weight: bold;
+}
+.uslugi-modals {
+    margin: 10px;
+    text-align: center;
+}
+.h1-uslugi {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px white;
+}
+.modal-uslugi {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 6px red;
 }
 
 @media (max-width: 426px) {
