@@ -306,6 +306,20 @@ footer {
         text-align: center;
         font-size: 30px;
     }
+    .h1-uslugi {
+        font-size: 25px;
+        text-align: center;
+        margin-right: 35px;
+
+    }
+    .modal-uslugi {
+        font-size: 15px;
+        color: white;
+    }
+    .uslugi-modals {
+        text-align: start;
+        padding: 0px;
+    }
 
     .modal-text {
         color: #C4D8E1;
@@ -367,6 +381,21 @@ footer {
     .modal-content{
         width: 400px;
     }
+    .h1-uslugi {
+        font-size: 40px;
+        text-align: center;
+        margin-right: 35px;
+    }
+
+    .modal-uslugi {
+        font-size: 25px;
+        color: white;
+    }
+
+    .uslugi-modals {
+        text-align: start;
+        padding: 0px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -399,5 +428,19 @@ footer {
 
     .modal-content {
         width: 1000px;
+    }
+    .h1-uslugi {
+        font-size: 60px;
+        margin-right: 35px;
+    }
+
+    .modal-uslugi {
+        font-size: 30px;
+        color: white;
+    }
+
+    .uslugi-modals {
+        text-align: center;
+        padding: 0px;
     }
 }
